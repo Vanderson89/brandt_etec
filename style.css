@@ -1,0 +1,15 @@
+body {
+    background-color: #aecce6;
+}
+.card {
+    margin-bottom: 20px;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.bg-menu{
+    background-color: rgb(223, 154, 223) ;
+
+}

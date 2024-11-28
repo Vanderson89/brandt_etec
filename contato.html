@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velani's Turismo</title>
+  
+  <link href="./libs/bootstrap-5.3.3/css/bootstrap.css" rel="stylesheet">
+  <link href="./style.css"  rel="stylesheet">
+  <style>
+  
+  </style>
+</head>
+<body>
+
+  
+  <header class="bg-dark text-white text-center my-4">
+    <h1>Velani's Turismo</h1>
+	<h4>Explore destinos incríveis pelo Brasil e pelo mundo!</h4>
+  </header>
+
+  
+  <nav class="navbar navbar-expand-lg bg-menu">
+    <div class="container">
+        <a class="navbar-brand" href="./index.html">Velani's</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link fw-bold"  href="./index.html">INÍCIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="./pacotes.html">PACOTES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="./dicas.html">DICAS DE VIAGEM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="./contato.html">CONTATO</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ 
+  <main class="container my-5">
+    <div class="row">
+	
+      <div class="col-md-12">
+	  
+        <h2>Contato</h2>
+		
+		<form>
+		  
+		  <div class="mb-3">
+			<label for="nome" class="form-label">Nome</label>
+			<input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+		  </div>
+
+		
+		  <div class="mb-3">
+			<label for="telefone" class="form-label">Telefone</label>
+			<input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone" required>
+		  </div>
+
+		
+		  <div class="mb-3">
+			<label for="assunto" class="form-label">Assunto</label>
+			<input type="text" class="form-control" id="assunto" placeholder="Digite o assunto" required>
+		  </div>
+
+	
+		  <div class="mb-3">
+			<label for="mensagem" class="form-label">Mensagem</label>
+			<textarea class="form-control" id="mensagem" rows="4" placeholder="Digite sua mensagem" required></textarea>
+		  </div>
+
+		  <button type="submit" class="btn btn-primary">Enviar</button>
+		</form>
+		
+      </div>
+
+  </main>
+
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 desenvolvido por Brandt's.</p>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
